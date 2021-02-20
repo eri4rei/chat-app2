@@ -11,11 +11,11 @@ module ChatApp2
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
-    confing.generators do |g|
+    config.generators do |g|
       g.stylesheets false
       g.javascripts false
       g.helper false
-      g.tset_framework false
+      g.test_framework false
     end
 
     # Settings in config/environments/* take precedence over those specified here.
